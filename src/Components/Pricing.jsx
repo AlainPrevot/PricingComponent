@@ -1,5 +1,5 @@
-import '../Sass/Pricing.sass';
 import PropTypes from 'prop-types';
+import '../Sass/Pricing.sass';
 
 export const Pricing = ({ value }) => {
 	return (

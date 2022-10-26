@@ -1,6 +1,6 @@
-import '../Sass/ContainerCard.sass';
-import { Card } from './Card';
 import PropTypes from 'prop-types';
+import { Card } from '../Components';
+import '../Sass/ContainerCard.sass';
 
 export const ContainerCard = ({ plan }) => {
 	const data = [

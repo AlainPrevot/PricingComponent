@@ -1,5 +1,5 @@
-import '../Sass/Checkbox.sass';
 import PropTypes from 'prop-types';
+import '../Sass/Checkbox.sass';
 
 export const Checkbox = ({ onMode }) => {
 	return (

@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
-import { Description } from './Description';
-import { Pricing } from './Pricing';
-import '../Sass/Card.sass';
 import { usePlan } from '../Hooks/usePlan';
+import { Pricing, Description } from '../Components';
+import '../Sass/Card.sass';
 
 export const Card = ({
 	title,

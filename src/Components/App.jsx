@@ -1,8 +1,6 @@
-import '../Sass/App.sass';
-import { Title } from './Title';
-import { Checkbox } from './Checkbox';
 import { useState } from 'react';
-import { ContainerCard } from './ContainerCard';
+import { Title, Checkbox, ContainerCard } from '../Components';
+import '../Sass/App.sass';
 
 export const App = () => {
 	const [plan, setPlan] = useState('monthly');
@@ -12,16 +10,7 @@ export const App = () => {
 	};
 
 	return (
-		<div
-			style={{
-				display: 'flex',
-				alignItems: 'center',
-				height: '76vh',
-				// justifyContent: 'space-around',
-				flexDirection: 'column',
-			}}
-			className='cuerpo'
-		>
+		<div className='app'>
 			<Title title={'Our Pricing'} />
 			<Checkbox onMode={TypePlan} />
 			<ContainerCard plan={plan} />

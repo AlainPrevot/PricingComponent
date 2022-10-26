@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import '../Sass/Description.sass';
+import PropTypes from 'prop-types';
 
 export const Description = ({ storage, users, memory }) => {
 	const sizeStorage = storage.toString().length >= 2 ? 'GB' : 'TB';
