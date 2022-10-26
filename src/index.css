@@ -1,15 +1,24 @@
-:root 
-  [data-theme="lala"]{
-    --background__card: hsl(0, 0%, 100%);
-    --background__button: linear-gradient(145deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-    --font__primary: hsl(232, 13%, 33%);
-    --font__button: hsl(0, 0%, 100%);
-    --separation: hsl(234, 14%, 74%);
-  }
-  [data-theme="center"]{
-    --background__card: linear-gradient(145deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-    --background__button: hsl(0, 0%, 100%);
-    --font__primary: hsl(0, 0%, 100%);
-    --font__button: hsl(237, 63%, 64%);
-    --separation: hsl(240, 78%, 98%);
-  }
+:root [data-theme='secundary'] {
+	--background__card: hsl(0, 0%, 100%);
+	--background__button: linear-gradient(
+		145deg,
+		hsl(236, 72%, 79%),
+		hsl(237, 63%, 64%)
+	);
+	--font__primary: hsl(232, 13%, 33%);
+	--font__button: hsl(0, 0%, 100%);
+	--font__button--hover: hsl(237, 63%, 64%);
+	--separation: hsl(234, 14%, 74%);
+}
+[data-theme='primary'] {
+	--background__card: linear-gradient(
+		145deg,
+		hsl(236, 72%, 79%),
+		hsl(237, 63%, 64%)
+	);
+	--background__button: hsl(0, 0%, 100%);
+	--font__primary: hsl(0, 0%, 100%);
+	--font__button: hsl(237, 63%, 64%);
+	--font__button--hover: hsl(0, 0%, 100%);
+	--separation: hsl(240, 78%, 98%);
+}

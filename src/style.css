@@ -1,15 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+	padding: 0;
+	margin: 0;
 }
 
+body {
+	width: 100vw;
+	/* height: 100vh; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(240, 78%, 98%);
+}
 
-body{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f2f2f2;
-    background-color: hsl(240, 78%, 98%);
+#root {
+	/* height: 100vh; */
 }
