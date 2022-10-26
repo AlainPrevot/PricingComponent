@@ -19,7 +19,7 @@ export const Card = ({
 		<div className='card' data-theme={theme}>
 			<h2>{title}</h2>
 			<Pricing value={newPricing} />
-			<Description Storage={storage} Memory={memory} Users={users} />
+			<Description storage={storage} users={users} memory={memory} />
 			<button className='card--button'>LEARN MORE</button>
 		</div>
 	);

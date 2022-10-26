@@ -34,7 +34,7 @@ export const ContainerCard = ({ plan }) => {
 	];
 
 	return (
-		<div className='container'>
+		<div className='container--card'>
 			{data.map(data => (
 				<Card
 					key={data.id}

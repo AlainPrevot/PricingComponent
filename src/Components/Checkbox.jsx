@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Checkbox = ({ onMode }) => {
 	return (
-		<div className='container'>
+		<div className='container--checkbox'>
 			<span>Annually</span>
 			<div className='checkbox'>
 				<input type='checkbox' id='checkbox' onChange={() => onMode()} />
