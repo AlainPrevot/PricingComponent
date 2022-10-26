@@ -3,39 +3,54 @@ import { Card } from './Card';
 import PropTypes from 'prop-types';
 
 export const ContainerCard = ({ plan }) => {
+	const data = [
+		{
+			id: 1,
+			title: 'Basic',
+			pricing: 19.99,
+			storage: 500,
+			memory: 3,
+			users: 2,
+			theme: 'secundary',
+		},
+		{
+			id: 2,
+			title: 'Professional',
+			pricing: 24.99,
+			storage: 1,
+			memory: 10,
+			users: 5,
+			theme: 'primary',
+		},
+		{
+			id: 3,
+			title: 'Master',
+			pricing: 39.99,
+			storage: 2,
+			memory: 20,
+			users: 10,
+			theme: 'secundary',
+		},
+	];
+
 	return (
 		<div className='container'>
-			<Card
-				title={'Basic'}
-				pricing={19.99}
-				storage={500}
-				memory={3}
-				users={2}
-				theme={'secundary'}
-				plane={plan}
-			/>
-			<Card
-				title={'Professional'}
-				pricing={24.99}
-				storage={1}
-				memory={10}
-				users={5}
-				theme={'primary'}
-				plane={plan}
-			/>
-			<Card
-				title={'Master'}
-				pricing={39.99}
-				storage={2}
-				memory={20}
-				users={10}
-				theme={'secundary'}
-				plane={plan}
-			/>
+			{data.map(data => (
+				<Card
+					key={data.id}
+					title={data.title}
+					pricing={data.pricing}
+					storage={data.storage}
+					memory={data.memory}
+					users={data.users}
+					theme={data.theme}
+					plane={plan}
+				/>
+			))}
 		</div>
 	);
 };
 
 ContainerCard.propTypes = {
-	plan: PropTypes.string,
+	plan: PropTypes.string.isRequired,
 };

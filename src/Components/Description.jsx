@@ -5,7 +5,7 @@ export const Description = ({ Storage, Users, Memory }) => {
 	const sizeStorage = Storage.toString().length >= 2 ? 'GB' : 'TB';
 
 	return (
-		<div className='Card--Description border-top-bottom'>
+		<div className='card--description border-top-bottom'>
 			<span>
 				{Storage} {sizeStorage} Storage
 			</span>

@@ -16,11 +16,11 @@ export const Card = ({
 	const { newPricing } = usePlan(pricing, plane);
 
 	return (
-		<div className='Card' data-theme={theme}>
+		<div className='card' data-theme={theme}>
 			<h2>{title}</h2>
 			<Pricing value={newPricing} />
 			<Description Storage={storage} Memory={memory} Users={users} />
-			<button className='Card--Button'>LEARN MORE</button>
+			<button className='card--button'>LEARN MORE</button>
 		</div>
 	);
 };

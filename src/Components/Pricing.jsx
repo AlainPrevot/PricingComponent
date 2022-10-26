@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Pricing = ({ value }) => {
 	return (
-		<div className='Card--Pricing'>
+		<div className='card--pricing'>
 			<span>$</span>
 			<h1>{value}</h1>
 		</div>

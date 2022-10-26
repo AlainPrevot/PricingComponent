@@ -1,36 +1,36 @@
 @use './Font'
 
-.Card
-    width: 350px
-    height: 454px
+.card
+    background: var(--background__card)
     border-radius: 10px
     box-sizing: border-box
-    padding: 34px 28px
+    color: var(--font__primary)
     display: flex
     flex-direction: column
+    height: 454px
     justify-content: space-between
-    background: var(--background__card)
-    color: var(--font__primary)
+    padding: 34px 28px
+    width: 350px
 
     h2
         font-size: 1.1rem
         text-align: center
 
-    .Card--Button
-        width: 100%
-        height: 47px
-        border: none
-        border-radius: 8px
+    .card--button
         background: var(--background__button)
+        border-radius: 8px
+        border: none
         color: var(--font__button)
-        letter-spacing: 1px
         cursor: pointer
+        height: 47px
+        letter-spacing: 1px
+        width: 100%
 
-    .Card--Button:hover
+    .card--button:hover
         background: transparent
-        color: var(--font__button--hover)
         border: 2px solid var(--separation)
+        color: var(--font__button--hover)
 
 @media only screen and (max-width:1000px)
-    .Card
+    .card
         margin: 10px
