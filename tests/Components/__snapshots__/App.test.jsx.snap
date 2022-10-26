@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en App Debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <h2
+      class="title"
+    >
+      Our Pricing
+    </h2>
+    <div
+      class="container--checkbox"
+    >
+      <span>
+        Annually
+      </span>
+      <div
+        class="checkbox"
+      >
+        <input
+          id="checkbox"
+          type="checkbox"
+        />
+        <label
+          for="checkbox"
+        />
+      </div>
+      <span>
+        Monthly
+      </span>
+    </div>
+    <div
+      class="container--card"
+    >
+      <div
+        class="card"
+        data-theme="secundary"
+      >
+        <h2>
+          Basic
+        </h2>
+        <div
+          class="card--pricing"
+        >
+          <span>
+            $
+          </span>
+          <h1>
+            19.99
+          </h1>
+        </div>
+        <ul
+          class="card--description border-top-bottom"
+        >
+          <li>
+            500
+             
+            GB
+             Storage
+          </li>
+          <li
+            class="border-top-bottom"
+          >
+            2
+             Users Allowed
+          </li>
+          <li>
+            Send up to 
+            3
+             GB
+          </li>
+        </ul>
+        <button
+          class="card--button"
+        >
+          LEARN MORE
+        </button>
+      </div>
+      <div
+        class="card"
+        data-theme="primary"
+      >
+        <h2>
+          Professional
+        </h2>
+        <div
+          class="card--pricing"
+        >
+          <span>
+            $
+          </span>
+          <h1>
+            24.99
+          </h1>
+        </div>
+        <ul
+          class="card--description border-top-bottom"
+        >
+          <li>
+            1
+             
+            TB
+             Storage
+          </li>
+          <li
+            class="border-top-bottom"
+          >
+            5
+             Users Allowed
+          </li>
+          <li>
+            Send up to 
+            10
+             GB
+          </li>
+        </ul>
+        <button
+          class="card--button"
+        >
+          LEARN MORE
+        </button>
+      </div>
+      <div
+        class="card"
+        data-theme="secundary"
+      >
+        <h2>
+          Master
+        </h2>
+        <div
+          class="card--pricing"
+        >
+          <span>
+            $
+          </span>
+          <h1>
+            39.99
+          </h1>
+        </div>
+        <ul
+          class="card--description border-top-bottom"
+        >
+          <li>
+            2
+             
+            TB
+             Storage
+          </li>
+          <li
+            class="border-top-bottom"
+          >
+            10
+             Users Allowed
+          </li>
+          <li>
+            Send up to 
+            20
+             GB
+          </li>
+        </ul>
+        <button
+          class="card--button"
+        >
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

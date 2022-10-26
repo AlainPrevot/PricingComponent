@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Card Debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+    data-theme="secundary"
+  >
+    <h2>
+      Basic
+    </h2>
+    <div
+      class="card--pricing"
+    >
+      <span>
+        $
+      </span>
+      <h1>
+        19.99
+      </h1>
+    </div>
+    <ul
+      class="card--description border-top-bottom"
+    >
+      <li>
+        500
+         
+        GB
+         Storage
+      </li>
+      <li
+        class="border-top-bottom"
+      >
+        2
+         Users Allowed
+      </li>
+      <li>
+        Send up to 
+        3
+         GB
+      </li>
+    </ul>
+    <button
+      class="card--button"
+    >
+      LEARN MORE
+    </button>
+  </div>
+</div>
+`;
