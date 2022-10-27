@@ -1,6 +1,7 @@
 {
   "name": "pricingcomponent",
   "private": true,
+  "homepage": "https://alainprevot.github.io/PricingComponent",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
